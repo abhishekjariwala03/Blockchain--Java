@@ -1,0 +1,43 @@
+[
+  {
+    "index": 1,
+    "timestamp": 1709275134679,
+    "data": "first block",
+    "previousHash": "0",
+    "hash": "abc99686663bf045831219b4d0e355dbcd5e78c4dcf46a619cd11ab0ad12c1e9",
+    "transactions": [
+      {
+        "transactionId": "d70b769f-8269-4c47-8ee9-44e316ac829e",
+        "from": "abhi",
+        "to": "harsh",
+        "amount": 400.0,
+        "hash": "60998b3a889001cebb300cf067c1db6b87dfeb3d9efb60df8043902daeaac9b3"
+      },
+      {
+        "transactionId": "bc28815e-e055-4cf3-9e59-7009049d9e30",
+        "from": "sanjeev",
+        "to": "vikram",
+        "amount": 40.0,
+        "hash": "00d5fc8670e18a8794ae9a6f9a81e9711332ba43fbbe08eaf76a7c92b08874b7"
+      }
+    ],
+    "merkleRoot": "0402fdcf37c089dd1e70cdcb1bc3b7de17b0d7f42c329045420937caa06e047b"
+  },
+  {
+    "index": 2,
+    "timestamp": 1709275194031,
+    "data": "second block",
+    "previousHash": "abc99686663bf045831219b4d0e355dbcd5e78c4dcf46a619cd11ab0ad12c1e9",
+    "hash": "2c5dc8ba392a6a40a61cc24592205b24670321c730bf94e488c9873dd3248b2f",
+    "transactions": [
+      {
+        "transactionId": "967f40c4-dd0b-452b-b980-6c59fd2e7a41",
+        "from": "harsh",
+        "to": "sanjeev",
+        "amount": 10.0,
+        "hash": "7f2f6429892026bd81049d11f06607fb527494a8a5c775d0ad3a06eac6635880"
+      }
+    ],
+    "merkleRoot": "7f2f6429892026bd81049d11f06607fb527494a8a5c775d0ad3a06eac6635880"
+  }
+]
